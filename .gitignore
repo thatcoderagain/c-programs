@@ -1,4 +1,4 @@
-!*.c
-!*.h
-!cmake-build-debug
-!power.dSYM
+*
+!.gitignore
+!**/**.c
+!**/**.h

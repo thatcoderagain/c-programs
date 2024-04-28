@@ -11,7 +11,7 @@ int main(){
     if ((p==b)&&(p==h)) {
         printf("Triangle is Equilateral");
     } else if ((p==b) && p != h || (p == h) && p != b) {
-        printf("Triangle is isoceles");
+        printf("Triangle is isosceles");
     } else if ((h*h)==((p*p)+(b*b))) {
         printf("triangle is right angled");
     } else if(!((p==b) && p != h || (p == h) && p != b)) {
