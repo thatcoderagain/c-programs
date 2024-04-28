@@ -1,12 +1,10 @@
 #include<stdio.h>
-#include "lib/mymath.c"
 
 int factorial(int, int*);
 
 int main()
 {
     int num, fact;
-    printf("SUM OF 10, 20 = %.2f", sum(10, 20));
     printf("enter any number to find factorial :  ");
     scanf("%d",&num);
     factorial(num, &fact);

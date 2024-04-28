@@ -19,3 +19,11 @@ int factorial (int x)
         f=f*i;
     return f;
 }
+
+int fact(int num) {
+    if (num <= 1) {
+        return 1;
+    } else {
+        return num * fact(num-1);
+    }
+}
