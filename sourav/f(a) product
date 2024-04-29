@@ -1,0 +1,18 @@
+#include"stdio.h"
+int product(int,float);
+void main()
+{
+  int a;
+  float b,sum;
+  printf("enter a int num: ");
+  scanf("%d",&a);
+  print("enter a float num: ");
+  scanf("%f",&b);
+
+  product=(&a*&b)
+  printf("%d*%f=%f",a,b,product);
+  }
+  int product(a, b)
+  {
+  product=a*b;
+  }
