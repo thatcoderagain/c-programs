@@ -13,13 +13,13 @@ int main() {
         n = n/2;
     }
     // reverse
-    n = binary;
+    /*n = binary;
     binary = 0;
     while (n > 0) {
         printf("\n%ld", binary);
         binary = (binary * 10) + n%10;
         n = n/2;
-    }
+    }*/
 
     printf("\n%ld", binary);
 

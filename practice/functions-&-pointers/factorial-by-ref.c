@@ -12,7 +12,7 @@ int main()
     printf("factorial value = %d",fact);
 
 }
-int factorial (int x,int *fact)
+int factorial (int*x,int*fact)
 {
     int i;
     for(i=x; i >= 1; i--) {

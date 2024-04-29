@@ -3,6 +3,7 @@
 !**/**.c
 !**/**.h
 !cmake-build-debug
+!exercise
 !practice
 !sourav
 !anshu
