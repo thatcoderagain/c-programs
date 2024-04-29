@@ -1,6 +1,9 @@
+#ignore all kind of files
+#**/*.*
+**/*
 !.gitignore
-!**/**.c
-!**/**.h
+!**/*.c
+!**/*.h
 **/.idea
 **/cmake-build-debug
 **/*.exe
