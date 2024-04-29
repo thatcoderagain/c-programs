@@ -12,7 +12,7 @@ int main() {
 void romanNumber(unsigned int num) {
     printf("\nRoman value of %u is ", num);
     unsigned int i;
-    for(i = 0; i < num / 1000; i++, printf("m")) {
+    for(i = 0; i < num / 1000; i++) {
         printf("m");
     }
     for(i = 0, num %= 1000; i < num / 500; i++) {
