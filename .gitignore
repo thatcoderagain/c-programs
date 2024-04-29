@@ -4,6 +4,8 @@
 !.gitignore
 !**/*.c
 !**/*.h
+*.c
+*.h
 **/.idea
 **/cmake-build-debug
 **/*.exe
